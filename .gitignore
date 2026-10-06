@@ -1,2 +1,9 @@
 
 data/~$MONTO DE INTERVENCION.xlsx
+
+.venv/
+paper/docs/pdfs/
+paper/data/*.parcial.jsonl
+paper/data/*.hechos.txt
+paper/data/logs/
+__pycache__/

@@ -1,0 +1,8 @@
+requests>=2.31
+pandas>=2.0
+openpyxl
+numpy
+statsmodels>=0.14
+matplotlib
+vaderSentiment
+scikit-learn
