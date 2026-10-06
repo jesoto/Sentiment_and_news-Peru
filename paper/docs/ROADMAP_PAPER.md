@@ -7,12 +7,12 @@ tipo *Emerging Markets Review*, *Journal of International Money and Finance* o *
 Marca cada casilla al terminar. Cada paso deja un script en `paper/code/` y una salida en `paper/resultados/`.
 
 ## Fase 1 — Datos (semanas 1-2)
-- [ ] **1.1 Reproducir la replicación.** Muestra de 400 titulares → `historico` → `replicacion_var.py --horas`.
+- [x] **1.1 Reproducir la replicación.** Muestra de 400 titulares → `historico` → `replicacion_var.py --horas`.
       Verificar que los números coinciden con `resultados/replicacion_var/resumen.txt`.
-- [ ] **1.2 Horas del corpus completo 2018-2022.** `historico --entrada data/data_es.csv --workers 2` (~26.9k URLs, ~4-6 h).
-- [ ] **1.3 Listado completo 2022-01-01 → hoy.** `listar` (~1,750 días, ~1 h).
+- [ ] **1.2 Horas del corpus completo 2018-2022.** `historico --entrada data/data_es.csv --workers 2` (~26.9k URLs, ~4-6 h).  (EN CURSO desde 2026-10-05 23:30, log en paper/data/logs/historico.log; reanudable)
+- [x] **1.3 Listado completo 2022-01-01 → hoy.** `listar` (~1,750 días, ~1 h).
 - [ ] **1.4 Alinear** ambos con `alinear` → `paper/data/alineado.csv` + `tc_cierre_bcrp.csv`.
-- [ ] **1.5 Datos de mercado** (`paper/code/mercado.py`): BCRP (TC 13:30 PD04646PD, cobre PD04701XD, EMBIG Perú PD04709XD,
+- [x] **1.5 Datos de mercado** (`paper/code/mercado.py`): BCRP (TC 13:30 PD04646PD, cobre PD04701XD, EMBIG Perú PD04709XD,  (hecho salvo CLP y COP, sin serie diaria verificada)
       intervención spot y swaps con signo — buscar series en BCRPData), FRED (DTWEXBGS, VIXCLS, DGS10), CLP y COP.
 - [ ] **1.6 Filtro de relevancia v0** por sección (economía, mercados, política, tu-dinero, mundo) + palabras clave
       (dólar, tipo de cambio, BCRP, Fed, cobre, vacancia...). Medir cuántas notas por día quedan.
