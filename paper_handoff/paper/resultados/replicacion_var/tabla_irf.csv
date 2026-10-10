@@ -1,0 +1,6 @@
+modelo,h0,h1,h5,h10,sig90_h1
+Original: TC(%) ante sentimiento,0.0018,-0.0535,-0.0926,-0.082,False
+Original: TC(%) ante intervención,0.2459,0.2038,0.0316,0.0231,True
+Corregido: log TC acum.(%) ante sentimiento,-0.0604,-0.0703,0.0103,0.0145,False
+Corregido: log TC acum.(%) ante intervención,0.2212,0.1508,0.0143,0.0126,True
+Alt. orden: log TC acum.(%) ante intervención,0.0,-0.0855,-0.2114,-0.2116,True
